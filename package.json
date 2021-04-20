@@ -1,6 +1,6 @@
 {
   "name": "foxhole-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NPM package for foxhole",
   "main": "main.js",
   "scripts": {
