@@ -10,6 +10,11 @@ class Live2 {
 
     }
 
+    /**
+     *  Get Live1 information on the war
+     * @returns {Promise<Object>}
+     */
+
     getWarInfo() {
         return new Promise((resolve, reject) => {
             if (this.service.IsInit()) {
@@ -21,6 +26,11 @@ class Live2 {
             }
         })
     }
+
+    /**
+     * Get all maps name
+     * @returns {Promise<Array>}
+     */
 
     getAllMaps() {
         return new Promise((resolve, reject) => {
@@ -34,6 +44,11 @@ class Live2 {
             }
         })
     }
+    /**
+     * Get casualties for each maps and global
+     * @returns {Promise<Object>}
+     */
+
 
     getCasualties() {
         return new Promise((resolve, reject) => {

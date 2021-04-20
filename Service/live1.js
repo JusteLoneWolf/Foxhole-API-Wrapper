@@ -26,6 +26,11 @@ class Live1 {
         })
     }
 
+    /**
+     * Get all maps name
+     * @returns {Promise<Array>}
+     */
+
     getAllMaps(){
         return new Promise((resolve, reject) => {
             fs.readFile(path.resolve(__dirname, '../data/mapsLive1.json')).then((data) => {
@@ -33,6 +38,11 @@ class Live1 {
             })
         })
     }
+
+    /**
+     * Get casualties for each maps and global
+     * @returns {Promise<Object>}
+     */
 
     getCasualties(){
         return new Promise((resolve, reject) => {
